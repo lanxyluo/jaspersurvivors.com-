@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Site - Six Cats Under</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Header styles */
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 20px;
+        }
+        
+        /* Navigation styles */
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+        }
+        
+        .navigation a {
+            text-decoration: none;
+            color: #2c3e50;
+            padding: 5px 15px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        
+        .navigation a:hover {
+            background-color: #ddd;
+        }
+        
+        /* Game container styles */
+        .game-container {
+            margin: 30px 0;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .game-iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        
+        /* Game info section styles */
+        .game-info {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .game-info h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        
+        /* Control instructions styles */
+        .controls-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .control-item {
+            padding: 8px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        /* Related games section styles */
+        .related-games {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .related-games-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .related-game {
+            width: 150px;
+            text-align: center;
+        }
+        
+        .related-game a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+        
+        .related-game a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer styles */
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Six Cats Under</h1>
+        <p class="game-brief">You died. Your unfinished business? Taking care of your six cats! A heartwarming cat management simulation game.</p>
+    </div>
+    
+    <!-- Navigation bar -->
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="games.html">Categories</a>
+        <a href="popular.html">Popular Games</a>
+        <a href="new.html">New Games</a>
+    </div>
+    
+    <!-- Game container -->
+    <div class="game-container">
+        <!-- Six Cats Under game iframe -->
+        <iframe height="600" frameborder="0" src="https://itch.io/embed/646263" width="100%" class="game-iframe"><a href="https://teambeanloop.itch.io/six-cats-under">Six Cats Under by Team Bean Loop, Mosu</a></iframe>
+    </div>
+    
+    <!-- Game information section -->
+    <div class="game-info">
+        <h2>Game Description</h2>
+        <p>"Six Cats Under" is a charming game developed by Team Bean Loop and Mosu that tells a bittersweet story. In this game, you've passed away, but your spirit can't rest because you're worried about the six cats you've left behind. As a ghost, you need to find ways to care for and protect these adorable felines, ensuring their well-being and safety. The game combines simulation and puzzle elements, allowing players to experience a touching story about life, responsibility, and love while taking care of cats.</p>
+        
+        <h2>Controls</h2>
+        <div class="controls-list">
+            <div class="control-item">Mouse Click: Select and interact</div>
+            <div class="control-item">Drag and Drop: Move and place items</div>
+            <div class="control-item">Click on Cats: Check their status</div>
+            <div class="control-item">Click on Objects: Interact with environment</div>
+        </div>
+        
+        <h2>Game Tips</h2>
+        <ul>
+            <li>Each cat has a different personality and needs - understanding their traits will make the game easier</li>
+            <li>Pay attention to the cats' health and mood indicators to keep them satisfied</li>
+            <li>Explore various items in the environment; some may provide special help for cat care</li>
+            <li>New challenges will emerge as time passes, so stay vigilant</li>
+            <li>Interactions with other characters may reveal more of the game's backstory</li>
+        </ul>
+    </div>
+    
+    <!-- Related games recommendations -->
+    <div class="related-games">
+        <h2>Recommended Games</h2>
+        <div class="related-games-list">
+            <div class="related-game">
+                <a href="anxiety.html">
+                    <div class="game-thumb">[Thumbnail]</div>
+                    <div class="game-name">Adventures With Anxiety</div>
+                </a>
+            </div>
+            <div class="related-game">
+                <a href="fnf.html">
+                    <div class="game-thumb">[Thumbnail]</div>
+                    <div class="game-name">Friday Night Funkin'</div>
+                </a>
+            </div>
+            <div class="related-game">
+                <a href="index.html">
+                    <div class="game-thumb">[Thumbnail]</div>
+                    <div class="game-name">Monster Survivors</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 My Game Site - All Rights Reserved</p>
+        <p>Contact: youremail@example.com</p>
+    </div>
+</body>
+</html>
